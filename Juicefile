@@ -1,0 +1,15 @@
+# Define project configuration
+project:
+  # Replaced with the name of our project when creating a new project
+  name: <%= name %>
+  # Replaced with the domain of our project when creating a new project
+  url: <%= url %>
+
+# Define project commands
+commands:
+  # Make sure Sass is globally installed
+  install:
+    - npm install
+  # Compile our Sass files within our Underscores theme
+  compile:
+    - node_modules/.bin/node-sass wp-content/themes/_s/sass/style.scss wp-content/themes/_s/style.css

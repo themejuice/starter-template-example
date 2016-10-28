@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^3.10.1"
+  }
+}
